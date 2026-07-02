@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       SEO / SOCIAL METADATA
+       Written for the target query set: "knee pain doctor bangalore",
+       "back pain specialist", "orthopaedic clinic near me".
+       ============================================================ -->
+  <title>OrthoNow — Same-Day Knee &amp; Back Pain Consultation | Bengaluru, Hyderabad, Chennai</title>
+  <meta name="description" content="Book a same-day consultation with senior orthopaedic specialists at OrthoNow. 9 clinics across Bengaluru, Hyderabad &amp; Chennai. 4.8★ on Google, 40,000+ patients treated." />
+  <meta name="theme-color" content="#0b6b62" />
+  <link rel="canonical" href="https://www.orthonow.in/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="OrthoNow — Same-Day Orthopaedic Consultation" />
+  <meta property="og:description" content="Relief from knee &amp; back pain with senior specialists. 9 clinics, 4.8★ rated." />
+  <meta property="og:image" content="assets/logo.svg" />
+
+  <!-- Favicon (SVG, single request, no PNG fallback needed for modern browsers) -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+  <!-- ============================================================
+       PERFORMANCE
+       - Stylesheet is a single, compressed, same-origin file.
+       - No web fonts: we use the system font stack (zero network,
+         zero layout shift, instant first paint).
+       - JS is deferred so it never blocks rendering.
+       ============================================================ -->
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+
+  <!-- ============================================================
+       GOOGLE TAG MANAGER
+       Replace GTM-XXXXXXX with the live container. The dataLayer is
+       initialised BEFORE the snippet so early pushes are never lost.
+       ============================================================ -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-XXXXXXX');
+  </script>
+
+  <!-- ============================================================
+       STRUCTURED DATA — MedicalClinic + AggregateRating
+       Helps rich results for the brand and rating stars in SERP.
+       ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "OrthoNow",
+    "medicalSpecialty": "Orthopedic",
+    "url": "https://www.orthonow.in/",
+    "areaServed": ["Bengaluru", "Hyderabad", "Chennai"],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "3120"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- GTM noscript fallback for users without JavaScript -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+      height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe>
+  </noscript>
+
+  <!-- Accessibility: skip straight to the form -->
+  <a class="skip-link" href="#consultation">Skip to booking form</a>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/" aria-label="OrthoNow home">
+        <img src="assets/logo.svg" alt="OrthoNow" width="150" height="34" />
+      </a>
+
+      <!-- Primary contact: tel: link is a tracked conversion (phone_click) -->
+      <a class="header-phone js-call" href="tel:+918040001234"
+         data-clinic="OrthoNow Network" data-phone-region="KA">
+        <svg class="icon" aria-hidden="true" width="18" height="18"><use href="assets/icons.svg#phone"></use></svg>
+        <span>+91 80 4000 1234</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         HERO — headline, subheadline, trust chips, 2-field form
+         ============================================================ -->
+    <section class="hero" id="top">
+      <div class="container hero__grid">
+
+        <!-- Left: value proposition -->
+        <div class="hero__copy">
+          <p class="eyebrow">Knee pain · Back pain · Joint &amp; Spine care</p>
+
+          <h1 class="hero__title">
+            Walk in with pain.<br />Walk out with a plan.
+          </h1>
+
+          <p class="hero__subtitle">
+            Same-day consultation with senior orthopaedic specialists across
+            9 clinics in Bengaluru, Hyderabad &amp; Chennai. No long waits,
+            no unnecessary surgery — just a clear diagnosis and a recovery path.
+          </p>
+
+          <!-- Trust chips: quick, scannable credibility above the fold -->
+          <ul class="trust-chips" aria-label="Why patients trust OrthoNow">
+            <li><strong>4.8★</strong> Google rating</li>
+            <li><strong>40,000+</strong> patients treated</li>
+            <li><strong>Same-day</strong> appointments</li>
+          </ul>
+
+          <!-- Secondary CTAs for users who prefer calling / WhatsApp -->
+          <div class="hero__actions">
+            <a class="btn btn--ghost js-call" href="tel:+918040001234"
+               data-clinic="OrthoNow Network" data-phone-region="KA">
+              Call a clinic
+            </a>
+            <a class="btn btn--whatsapp js-whatsapp"
+               href="https://wa.me/918040001234?text=Hi%20OrthoNow%2C%20I%27d%20like%20to%20book%20a%20consultation"
+               target="_blank" rel="noopener" data-clinic="OrthoNow Network">
+              <svg class="icon" aria-hidden="true" width="18" height="18"><use href="assets/icons.svg#whatsapp"></use></svg>
+              WhatsApp us
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: the 2-field consultation form (the primary conversion) -->
+        <div class="hero__form-card">
+          <form id="consultation" class="lead-form" novalidate
+                aria-labelledby="lead-form-title">
+            <h2 id="lead-form-title" class="lead-form__title">
+              Book your consultation
+            </h2>
+            <p class="lead-form__note">
+              Fill in 2 details. A care coordinator calls you back within 15 minutes.
+            </p>
+
+            <!-- Name -->
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" autocomplete="name"
+                     placeholder="e.g. Priya Sharma" required
+                     aria-required="true" />
+              <span class="field__error" data-error-for="name" role="alert"></span>
+            </div>
+
+            <!-- Phone -->
+            <div class="field">
+              <label for="phone">Mobile number</label>
+              <input type="tel" id="phone" name="phone" inputmode="numeric"
+                     autocomplete="tel-national" placeholder="10-digit mobile"
+                     maxlength="10" required aria-required="true" />
+              <span class="field__error" data-error-for="phone" role="alert"></span>
+            </div>
+
+            <!-- Hidden context so the same form works on every clinic page -->
+            <input type="hidden" id="clinic" name="clinic" value="OrthoNow Indiranagar" />
+
+            <button type="submit" class="btn btn--primary btn--block js-cta"
+                    data-cta-id="hero_form_submit">
+              Request callback
+            </button>
+
+            <p class="lead-form__reassurance">
+              <svg class="icon" aria-hidden="true" width="14" height="14"><use href="assets/icons.svg#shield"></use></svg>
+              Your details are private. No spam, ever.
+            </p>
+          </form>
+
+          <!-- Thank-you state: revealed by script.js on successful submit -->
+          <div id="thank-you" class="thank-you" hidden role="status" aria-live="polite">
+            <svg class="thank-you__tick" aria-hidden="true" width="48" height="48"><use href="assets/icons.svg#check"></use></svg>
+            <h2>Thank you, we've got your request.</h2>
+            <p>A care coordinator will call you within <strong>15 minutes</strong>
+               during clinic hours (8 AM – 9 PM). For anything urgent, call
+               <a class="js-call" href="tel:+918040001234"
+                  data-clinic="OrthoNow Network" data-phone-region="KA">+91 80 4000 1234</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         STATS BAR — clinic statistics
+         ============================================================ -->
+    <section class="stats" aria-label="OrthoNow by the numbers">
+      <div class="container stats__grid">
+        <div class="stat"><span class="stat__num">9</span><span class="stat__label">Clinics across 3 cities</span></div>
+        <div class="stat"><span class="stat__num">40k+</span><span class="stat__label">Patients treated</span></div>
+        <div class="stat"><span class="stat__num">4.8★</span><span class="stat__label">Average Google rating</span></div>
+        <div class="stat"><span class="stat__num">15 min</span><span class="stat__label">Average callback time</span></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHY CHOOSE US — benefits
+         ============================================================ -->
+    <section class="benefits" id="why-us" aria-labelledby="why-us-title">
+      <div class="container">
+        <h2 id="why-us-title" class="section-title">Why professionals choose OrthoNow</h2>
+        <p class="section-subtitle">
+          Built for busy people who can't afford a week off for a hospital visit.
+        </p>
+
+        <ul class="benefits__grid">
+          <li class="benefit">
+            <svg class="benefit__icon" aria-hidden="true" width="28" height="28"><use href="assets/icons.svg#clock"></use></svg>
+            <h3>Same-day slots</h3>
+            <p>Book in the morning, see a specialist by evening. Early and post-work slots for working professionals.</p>
+          </li>
+          <li class="benefit">
+            <svg class="benefit__icon" aria-hidden="true" width="28" height="28"><use href="assets/icons.svg#stethoscope"></use></svg>
+            <h3>Surgery only when needed</h3>
+            <p>We exhaust physiotherapy and conservative care first. 8 in 10 patients recover without an operation.</p>
+          </li>
+          <li class="benefit">
+            <svg class="benefit__icon" aria-hidden="true" width="28" height="28"><use href="assets/icons.svg#pin"></use></svg>
+            <h3>A clinic near your office</h3>
+            <p>9 locations near major business hubs — Indiranagar, Gachibowli, Anna Nagar and more.</p>
+          </li>
+          <li class="benefit">
+            <svg class="benefit__icon" aria-hidden="true" width="28" height="28"><use href="assets/icons.svg#report"></use></svg>
+            <h3>Transparent pricing</h3>
+            <p>Consultation and scan costs shared upfront. No surprises on the bill, cashless insurance supported.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DOCTOR CREDENTIALS
+         Images are lazy-loaded (below the fold) with explicit sizes
+         to avoid layout shift.
+         ============================================================ -->
+    <section class="doctors" id="doctors" aria-labelledby="doctors-title">
+      <div class="container">
+        <h2 id="doctors-title" class="section-title">Led by senior specialists</h2>
+        <p class="section-subtitle">Consultants with 15+ years and 5,000+ procedures each.</p>
+
+        <ul class="doctors__grid">
+          <li class="doctor-card">
+            <img class="doctor-card__photo" src="assets/logo.svg" width="72" height="72"
+                 loading="lazy" alt="Portrait of Dr. Rajesh Menon" />
+            <h3>Dr. Rajesh Menon</h3>
+            <p class="doctor-card__cred">MS (Ortho), Fellowship in Joint Replacement</p>
+            <p class="doctor-card__focus">Knee &amp; Hip Replacement · Bengaluru</p>
+          </li>
+          <li class="doctor-card">
+            <img class="doctor-card__photo" src="assets/logo.svg" width="72" height="72"
+                 loading="lazy" alt="Portrait of Dr. Ananya Iyer" />
+            <h3>Dr. Ananya Iyer</h3>
+            <p class="doctor-card__cred">DNB (Ortho), Sports Medicine Fellow</p>
+            <p class="doctor-card__focus">Sports &amp; Knee Injuries · Hyderabad</p>
+          </li>
+          <li class="doctor-card">
+            <img class="doctor-card__photo" src="assets/logo.svg" width="72" height="72"
+                 loading="lazy" alt="Portrait of Dr. Vikram Reddy" />
+            <h3>Dr. Vikram Reddy</h3>
+            <p class="doctor-card__cred">MS, MCh (Ortho) — Spine Surgery</p>
+            <p class="doctor-card__focus">Back &amp; Spine Care · Chennai</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         REVIEWS + GOOGLE RATING
+         Element Visibility trigger (#reviews) fires review_widget_view.
+         ============================================================ -->
+    <section class="reviews" id="reviews" aria-labelledby="reviews-title"
+             data-rating="4.8" data-review-count="3120">
+      <div class="container">
+        <div class="reviews__header">
+          <h2 id="reviews-title" class="section-title">Patients rate us 4.8 on Google</h2>
+          <div class="google-rating" aria-label="4.8 out of 5 stars from 3,120 Google reviews">
+            <span class="google-rating__stars" aria-hidden="true">★★★★★</span>
+            <span class="google-rating__meta"><strong>4.8</strong> · 3,120 reviews</span>
+          </div>
+        </div>
+
+        <ul class="reviews__grid">
+          <li class="review">
+            <p class="review__stars" aria-hidden="true">★★★★★</p>
+            <blockquote>"Booked at 9 AM, saw Dr. Menon by 6. My knee pain was
+              diagnosed properly for the first time in two years. No pushy
+              surgery talk."</blockquote>
+            <cite>— Karthik R., Product Manager, Whitefield</cite>
+          </li>
+          <li class="review">
+            <p class="review__stars" aria-hidden="true">★★★★★</p>
+            <blockquote>"Six weeks of physio for my lower back instead of the
+              surgery another hospital wanted. Back to my desk and my morning
+              runs."</blockquote>
+            <cite>— Sneha P., CA, Gachibowli</cite>
+          </li>
+          <li class="review">
+            <p class="review__stars" aria-hidden="true">★★★★★</p>
+            <blockquote>"Clean clinic, on-time appointment, transparent pricing.
+              Rare for a specialist in Chennai. Highly recommend."</blockquote>
+            <cite>— Arun M., Architect, Anna Nagar</cite>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FINAL CTA
+         ============================================================ -->
+    <section class="final-cta" aria-labelledby="final-cta-title">
+      <div class="container final-cta__inner">
+        <h2 id="final-cta-title">Stop working through the pain.</h2>
+        <p>Book a same-day consultation. It takes 20 seconds.</p>
+        <a class="btn btn--primary js-cta" href="#consultation" data-cta-id="final_cta">
+          Book my consultation
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER — clinics, contact, legal
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div>
+        <img src="assets/logo.svg" alt="OrthoNow" width="140" height="32" />
+        <p class="site-footer__tagline">Orthopaedic care that respects your time.</p>
+      </div>
+
+      <nav aria-label="Clinics — Bengaluru">
+        <h3>Bengaluru</h3>
+        <ul>
+          <li>Indiranagar</li>
+          <li>Koramangala</li>
+          <li>Whitefield</li>
+          <li>Jayanagar</li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Clinics — Hyderabad">
+        <h3>Hyderabad</h3>
+        <ul>
+          <li>Banjara Hills</li>
+          <li>Gachibowli</li>
+          <li>Kukatpally</li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Clinics — Chennai">
+        <h3>Chennai</h3>
+        <ul>
+          <li>T. Nagar</li>
+          <li>Anna Nagar</li>
+        </ul>
+      </nav>
+
+      <div>
+        <h3>Contact</h3>
+        <p><a class="js-call" href="tel:+918040001234"
+              data-clinic="OrthoNow Network" data-phone-region="KA">+91 80 4000 1234</a></p>
+        <p><a href="mailto:care@orthonow.in">care@orthonow.in</a></p>
+      </div>
+    </div>
+
+    <div class="container site-footer__legal">
+      <p>© 2026 OrthoNow Healthcare Pvt. Ltd. · All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       STICKY MOBILE CTA — always-visible booking action on phones.
+       Element Visibility trigger fires sticky_cta_view.
+       ============================================================ -->
+  <div class="sticky-cta" aria-hidden="false">
+    <a class="btn btn--primary btn--block js-cta" href="#consultation" data-cta-id="sticky_book">
+      Book consultation
+    </a>
+  </div>
+</body>
+</html>
